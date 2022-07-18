@@ -9,5 +9,5 @@ class Dictionary
         word_collection = @words.select { |w| w.word == word_parameter }
         # if word doesnt existe return nil
         word_collection.first&.meaning
-     end
+    end
 end
